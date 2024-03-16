@@ -74,7 +74,7 @@ class App(CTk):
         with open(json_file, "r") as file:
             loaded_data = json.load(file) 
         for item in loaded_data:
-            self.history_item = CTkLabel(self.historyFrame,text=item["prompt"], wraplength=200, bg_color="#3c3c3c")
+            self.history_item = CTkLabel(self.historyFrame,text=item["prompt"], wraplength=450, bg_color="#3c3c3c")
             self.history_item.pack(fill="both", expand=True, padx=10, pady=10)
             self.history_item.bind("<Button-1>", command=self.on_history_item_click)
             self.history_labels.append(self.history_item)
