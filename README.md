@@ -1,5 +1,6 @@
 ﻿# text-to-speech
 ## About
+The text-to-speech application, created with Python, is designed to quickly and easily convert text into spoken words, making it convenient and user-friendly.
 
 ## Features
 
@@ -17,6 +18,6 @@ User's promts are placed in the History section after user place them
 
 ## User Instructions
 
-In the text box user write his text and by clicking play or by pressing enter the text is converted to speech
+*In the text box, users can input their text, and with a simple click of the "play" button or by pressing "enter," the text is seamlessly transformed into speech.
 
-In the history section if user click on the ... they are getting converted to speech again
+*In the history section, users can re-listen to their previous inputs by simply clicking them on history.
